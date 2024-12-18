@@ -7,45 +7,86 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header id="home">
-        <h1>Noe Cortes</h1>
-        <p>May goodness, beauty, and truth always reign.</p>
+    <!-- Header Section -->
+    <header id="home" class="header">
+        <div class="header-content">
+            <h1 class="site-title">Noe Cortes</h1>
+            <p class="site-tagline">May goodness, beauty, and truth always reign.</p>
+        </div>
+        <nav class="navbar" aria-label="Main Navigation">
+            <ul class="nav-list">
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#articles" class="nav-link">Articles</a></li>
+                <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
+    <!-- Intro Section -->
+    <section class="intro">
+        <p>
+            Welcome to my personal website. Here, I share my journey through experience, thought, and philosophy. My research delves into how systems of thought shape and enhance the human experience of phenomenology—the way we process and interpret our experiences. I aim to serve future generations by contributing ideas that help society navigate challenges and avoid the pitfalls of cultural "dark ages."
+        </p>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <h2>Resume</h2>
+        <p><a href="resume.pdf" download>Download my resume</a> to explore my professional journey and skillset.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <h2>Portfolio</h2>
+        <p>Explore examples of my work, including writing, public speaking, and creative projects:</p>
         <ul>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#articles">Articles</a></li>
-            <li><a href="#philosophy">Philosophy</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="speech1.html">Speech: The Art of Effective Communication</a></li>
+            <li><a href="project1.html">Project: Philosophy in Practice</a></li>
+            <li><a href="essay1.html">Essay: The Role of Phenomenology in Modern Life</a></li>
         </ul>
-    </nav>
+    </section>
 
-    <main>
-        <p>Thank you for visiting my personal website.
+    <!-- Articles Section -->
+    <section id="articles" class="articles-section">
+        <h2>Articles</h2>
+        <p>Discover my insights on personal growth, philosophy, and effective communication:</p>
+        <ul>
+            <li><a href="blogpost1.html">"The Intersection of Logic and Creativity"</a> - Dec 10, 2024</li>
+            <li><a href="blogpost2.html">"Overcoming the Ego in Public Speaking"</a> - Dec 3, 2024</li>
+            <li><a href="blogpost3.html">"Resilience in an Age of Uncertainty"</a> - Nov 20, 2024</li>
+        </ul>
+        <p><a href="articles.html">Explore all articles.</a></p>
+    </section>
 
-            Here, I share my journey through experience, thought, and philosophy. My research is focused on how systems of thought shape and enhance the human experience of phenomenology—the way we process and interpret our experiences. Through this work, I hope to serve future generations and avoid the pitfalls of a cultural "dark age".</p>
-        <section id="resume">
-            <h2>Resume</h2>
-            <p><a href="resume.pdf" download>Download my resume</a> to see my experience and skills.</p>
-        </section>
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy-section">
+        <h2>Philosophy</h2>
+        <p>My philosophy is rooted in the principles of self-improvement, resilience, and meaningful communication. Explore how these principles can enrich your life.</p>
+        <p><a href="philosophy.html">Learn more about my philosophy.</a></p>
+    </section>
 
-        <section id="articles">
-            <h2>Articles</h2>
-            <p>Explore my writings on personal growth, philosophy, and communication. <a href="articles.html">Read more.</a></p>
-        </section>
+    <!-- Resources Section -->
+    <section id="resources" class="resources-section">
+        <h2>Recommended Resources</h2>
+        <ul>
+            <li><a href="https://www.goodreads.com/book/show/628929.The_Tao_Te_Ching" target="_blank">The Tao Te Ching</a> by Laozi</li>
+            <li><a href="https://www.goodreads.com/book/show/10210.Meditations" target="_blank">Meditations</a> by Marcus Aurelius</li>
+            <li><a href="https://www.goodreads.com/book/show/43641.The_Alchemist" target="_blank">The Alchemist</a> by Paulo Coelho</li>
+        </ul>
+    </section>
 
-        <section id="philosophy">
-            <h2>Philosophy</h2>
-            <p>My philosophy centers on the principles of self-improvement, communication, and resilience. <a href="philosophy.html">Learn more.</a></p>
-        </section>
-
-       
-    </main>
-
-    <footer id="contact">
+    <!-- Contact Section -->
+    <footer id="contact" class="footer">
         <h2>Contact</h2>
         <p>Email me at <a href="mailto:cortesjn.si@gmail.com">cortesjn.si@gmail.com</a>.</p>
+        <p>Connect with me on social media: 
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">LinkedIn</a> | 
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">Twitter</a> 
+        </p>
+        <p>&copy; 2024 Noe Cortes. All rights reserved.</p>
     </footer>
 </body>
 </html>
